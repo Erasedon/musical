@@ -10,20 +10,18 @@
     <div class="header">
         <!-- <img src="assets/img/header.png" alt="Header"> -->
         <nav class="navbar dark-mode" role="navigation">
-    <div class="navbar__logo">Logo</div>    
-    <ul class="navbar__links">
-      <li class="navbar__link first"><a href="#">Accueil</a></li>
-      <li class="navbar__link second"><a href="#">Services</a></li>
-      <li class="navbar__link third"><a href="#">Missions</a></li>
-      <li class="navbar__link four"><a href="#">Portfolio</a></li>
-      <li class="navbar__link fifth"><a href="#">Contact</a></li>
-    </ul>   
+      <div class="navbar__logo">Black Label</div>    
+        <ul class="navbar__links">
+          <li class="navbar__link first"><a href="#">Connexion</a></li>
+          <li class="navbar__link second"><a href="#">Acceuil</a></li>
+          <li class="navbar__link third"><a href="#">Playlist</a></li>
+        </ul>   
     <button class="burger">
       <span class="bar"></span>  
     </button>   
   </nav>
   <main class="main-content" role="main">
-    <h1>Menu Responsive avec Burger Animé </h1>
+    <h1>La Musique où vous le voulez!</h1>
   </main>
   </div>
 </body>
