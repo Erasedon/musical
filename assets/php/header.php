@@ -3,12 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Header</title>
 </head>
 <body>
     <div class="header">
-        <!--<img src="assets/img/header.jpg" alt="Header">-->
+        <!-- <img src="assets/img/header.png" alt="Header"> -->
         <nav class="navbar dark-mode" role="navigation">
     <div class="navbar__logo">Logo</div>    
     <ul class="navbar__links">
@@ -25,6 +25,6 @@
   <main class="main-content" role="main">
     <h1>Menu Responsive avec Burger Animé </h1>
   </main>
-    </div>
+  </div>
 </body>
 </html>
