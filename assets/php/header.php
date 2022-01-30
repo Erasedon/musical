@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="header">
-        <!-- <img src="assets/img/header.png" alt="Header"> -->
         <nav class="navbar dark-mode" role="navigation">
       <div class="navbar__logo">Black Label</div>    
         <ul class="navbar__links">
