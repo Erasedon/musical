@@ -139,3 +139,33 @@ body, html {
    }
  }
  
+ .divpost {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: whitesmoke;
+   border-radius: 10px;
+   margin: 5px;
+}
+
+.imga:hover {
+   width: 300px;
+   transform:zoom;
+   overflow: hidden;
+   box-shadow: 0 0 10px 0px gray;
+ }
+
+.blockflex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+
+.imga{
+   border-radius: 4px;
+   width: 200px;
+   transition: width 1s, transform 2s;
+}
