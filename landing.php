@@ -13,7 +13,16 @@
         <title>Bienvenue</title>
     </head>
     <body>
-        <h1>Bonjour <?php echo $_SESSION['user']; ?></h1>
-        <a href="deconnexion.php" class="buttondeco">Déconnexion</a>
+        <?php include "assets/php/header.php" ?>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
+        <?php include "assets/php/footer.php" ?>
     </body>
 </html>
