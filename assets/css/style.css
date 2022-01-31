@@ -6,6 +6,14 @@
     background-position: center;
     background-size: cover;
 }
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  margin: 20px;
+  height: auto;
+}
 .pattern{
   margin-left:30%;
 }
