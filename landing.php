@@ -37,6 +37,6 @@
             include "assets/php/footer.php";
 
             ?>
-    <script src="assets/js/script.js" async></script>
+    <script src="assets/js/slider.js" async></script>
 </body>
 </html>
