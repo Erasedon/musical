@@ -7,15 +7,6 @@
     <title>Footer</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
-    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Repellendus neque quam rerum perspiciatis maiores! Facere modi est hic reprehenderit et expedita<br> ex in error soluta odio, illum culpa nam saepe?</p>
     <div class="footer">
         <div class="footer-service">
                 <h3>Nos Services</h3>

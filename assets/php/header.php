@@ -11,7 +11,7 @@
         <nav class="navbar dark-mode" role="navigation">
       <div class="navbar__logo">Black Label</div>    
         <ul class="navbar__links">
-          <li class="navbar__link first"><a href="#">Connexion</a></li>
+          <li class="navbar__link first" id="services"><a href="#">Connexion</a></li>
           <li class="navbar__link second"><a href="#">Acceuil</a></li>
           <li class="navbar__link third"><a href="#">Playlist</a></li>
         </ul>   
