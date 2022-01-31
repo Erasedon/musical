@@ -7,9 +7,12 @@
     $typem=$_POST['typem'];
     $nomm=$_POST['nomm'];
     $nomm=$_POST['nomm'];
+    $fichier=$_POST['Fichier'];
 
-    $envoim = $db->query("INSERT INTO `musique`(`nomm`, `typem`) VALUES ('$nomm','$typem')");
-    $envoia = $db->query("INSERT INTO `artiste`(`pseudo`) VALUES ('$pseudo')");
+    $envoim = $db->prepare("INSERT INTO `musique`(`nomm`, `typem`,`img`) VALUES ('$nomm','$typem','$fichier')");
+    $envoia = $db->prepare("INSERT INTO `artiste`(`pseudo`) VALUES ('$pseudo')");
+    $envoim->execute();
+    $envoia->execute();
 
     header('location: ../../index.php');
 

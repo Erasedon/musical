@@ -8,7 +8,7 @@
   	</div>
       <div class="form-group">
     		<label for="exampleInputEmail1">Image de l'ablum</label>
-    		<input type="file" class="form-control" placeholder="Envoyer le fichier" name="Fichier">
+    		<input type="text" class="form-control" placeholder="Envoyer le nom du fichier" name="Fichier">
   	</div>
 		<div class="form-group">
     		<label for="exampleInputEmail1">Nom de la musique</label>

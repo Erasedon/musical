@@ -15,7 +15,7 @@
     include "assets/php/artiste.php";
 
     ?>
-    
+    <h2 id='playlist' > Playlist </h2>
     <?php 
 
     include "assets/php/carousel.php";
