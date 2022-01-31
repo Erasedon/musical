@@ -11,7 +11,7 @@
         <div class="footer-service">
                 <h3>Nos Services</h3>
             <ul class="service">
-                <div class="buttonwho"><a href="#" style="color:black;">Qui somme-nous</a></div>
+                <div class="buttonwho"><a href="qui.php" style="color:black;">Qui somme-nous</a></div>
                 <div class="buttondom"><a href="https://www.nom-domaine.fr" style="color:black;">Nom de domaine</a></div>
             </ul>
         </div>

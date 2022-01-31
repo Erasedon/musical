@@ -7,6 +7,15 @@
     background-size: cover;
 }
 
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin: 20px;
+    height: auto;
+}
+
 .footer {
     background-color: #113241;
     max-width: 1000px;

@@ -22,7 +22,7 @@
           <?php
              }
           ?>
-          <li class="navbar__link third"><a href="#">Acceuil</a></li>
+          <li class="navbar__link third"><a href="index.php">Accueil</a></li>
           <li class="navbar__link four"><a href="#">Playlist</a></li>
         </ul>   
     <button class="burger">
