@@ -11,9 +11,19 @@
         <nav class="navbar dark-mode" role="navigation">
       <div class="navbar__logo">Black Label</div>    
         <ul class="navbar__links">
-          <li class="navbar__link first" id="services"><a href="#">Connexion</a></li>
-          <li class="navbar__link second"><a href="#">Acceuil</a></li>
-          <li class="navbar__link third"><a href="#">Playlist</a></li>
+          <?php
+              if (isset($_SESSION)) {
+          ?>
+              <li class="navbar__link first" id="services"><a href="#">Deconnexion</a></li>
+          <?php
+              } else {
+          ?>
+              <li class="navbar__link second" id="services"><a href="#">Connexion</a></li>
+          <?php
+             }
+          ?>
+          <li class="navbar__link third"><a href="#">Acceuil</a></li>
+          <li class="navbar__link four"><a href="#">Playlist</a></li>
         </ul>   
     <button class="burger">
       <span class="bar"></span>  
