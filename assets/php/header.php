@@ -14,6 +14,7 @@
           <?php
               if (isset($_SESSION)) {
           ?>
+              <li><p class="helluser"><?php echo $_SESSION['user']; ?></p></li>
               <li class="navbar__link first" id="services"><a href="#">Deconnexion</a></li>
           <?php
               } else {
