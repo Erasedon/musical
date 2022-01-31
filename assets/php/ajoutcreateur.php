@@ -1,20 +1,18 @@
-<?php
-include 'enregistrement.php';
-?>
+
 <h2 class="art"> l'Ajout de musique</h2>
 <div class="blockflex">
-<FORM action="index.php" method="post">
+<FORM action="assets/php/enregistrement.php" method="post">
 <div class="form-group">
     		<label for="exampleInputEmail1">Pseudo</label>
-    		<input type="text" class="form-control" placeholder="Entrez le Pseudonime de l'artiste" name="Pseudo" required>
+    		<input type="text" class="form-control" placeholder="Entrez le Pseudonime de l'artiste" name="pseudo" required>
   	</div>
       <div class="form-group">
-    		<label for="exampleInputEmail1">Nom de l'artiste</label>
-    		<input type="text" class="form-control" placeholder="Entrez le Pseudonime de l'artiste" name="Pseudo" required>
+    		<label for="exampleInputEmail1">Image de l'ablum</label>
+    		<input type="file" class="form-control" placeholder="Envoyer le fichier" name="Fichier">
   	</div>
 		<div class="form-group">
     		<label for="exampleInputEmail1">Nom de la musique</label>
-    		<input id="nomm"  type="text" class="form-control" placeholder="Nom de la musique " name="nomm" required>
+    		<input id="nomm"  type="text" class="form-control" placeholder="Nom de la musique" name="nomm" required>
   	</div>
     <div class="form-group">
         <label for="exampleInputEmail1">Type de musique </label>

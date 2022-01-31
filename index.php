@@ -28,12 +28,6 @@
 
      ?>
 
-      <?php     
-
-        include_once "assets/php/typem.php";
-
-        ?>
-            
     <script src="assets/js/script.js" async></script>
 </body>
 </html>
