@@ -1,72 +1,36 @@
+<?php
+ include "connexion.php";
+ 
+    $envoim = $db->prepare("SELECT `nomm`,`img` FROM `musique`");
+    $envoim->execute();
+  
+
+?>
+
+
 <div id="carousel2">
+<?php   while ($row = $envoim->fetch()) {
+      $data = $row[0];
+      $img =$row[1];
+    
 
+?>
       <div class="item">
         <div class="item__image">
-          <img src="assets/img/1.jpg" alt="">
+          <img src="assets/img/<?php  print $img; ?>.jpg" alt="">
         </div>
         <div class="item__body">
           <div class="item__title">
-            Mon titre 1
+            <?php 
+            print $data;  
+            ?>
           </div>
           <div class="item__description">
-            Ici une petite description pour tester le carousel
+          <?php 
+            print $data;  
+            ?>
           </div>
         </div>
       </div>
-
-      <div class="item">
-        <div class="item__image">
-          <img src="assets/img/2.jpg" alt="">
-        </div>
-        <div class="item__body">
-          <div class="item__title">
-            Mon titre 2
-          </div>
-          <div class="item__description">
-            Ici une petite description pour tester le carousel
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item__image">
-          <img src="assets/img/3.jpg" alt="">
-        </div>
-        <div class="item__body">
-          <div class="item__title">
-            Mon titre 3
-          </div>
-          <div class="item__description">
-            Ici une petite description pour tester le carousel
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="item__image">
-          <img src="assets/img/4.jpg" alt="">
-        </div>
-        <div class="item__body">
-          <div class="item__title">
-            Mon titre 4
-          </div>
-          <div class="item__description">
-            Ici une petite description pour tester le carousel
-          </div>
-        </div>
-      </div>
-
-      <div class="item">
-      <div class="item__image">
-          <img src="assets/img/5.jpg" alt="">
-        </div>
-        <div class="item__body">
-          <div class="item__title">
-            Mon titre 5
-          </div>
-          <div class="item__description">
-            Ici une petite description pour tester le carousel
-          </div>
-        </div>
-      </div>
+      <?php } ?>
 </div>

@@ -1,3 +1,6 @@
+<?php
+
+?>
 <h2 class="art"> Selections Artiste</h2>
     <div class="blockflex"> 
            
@@ -12,3 +15,4 @@
             <a href="https://store.steampowered.com/app/526870/Satisfactory/" class="divpost"> <img src="assets/img/1.jpg" class="imga"> </a>
             <a href="https://store.steampowered.com/app/294100/RimWorld/" class="divpost"> <img src="assets/img/1.jpg" class="imga"> </a>
  </div> 
+ 
