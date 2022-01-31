@@ -15,15 +15,15 @@
               if (isset($_SESSION)) {
           ?>
               <li><p class="helluser"><?php echo $_SESSION['user']; ?></p></li>
-              <li class="navbar__link first" id="services"><a href="#">Deconnexion</a></li>
+              <li class="navbar__link first" id="services"><a href="deconnexion.php">Deconnexion</a></li>
           <?php
               } else {
           ?>
-              <li class="navbar__link second" id="services"><a href="#">Connexion</a></li>
+              <li class="navbar__link second" id="services"><a href="index.php">Connexion</a></li>
           <?php
              }
           ?>
-          <li class="navbar__link third"><a href="index.php">Accueil</a></li>
+          <li class="navbar__link third"><a href="#">Accueil</a></li>
           <li class="navbar__link four"><a href="#">Playlist</a></li>
         </ul>   
     <button class="burger">
