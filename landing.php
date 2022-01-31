@@ -12,6 +12,11 @@
 <body>
     <?php 
 
+    include "assets/php/header.php";
+
+    ?>
+    <?php 
+
     include "assets/php/artiste.php";
 
     ?>
@@ -27,7 +32,11 @@
     include_once "assets/php/ajoutcreateur.php";
 
      ?>
+            <?php 
 
+            include "assets/php/footer.php";
+
+            ?>
     <script src="assets/js/script.js" async></script>
 </body>
 </html>

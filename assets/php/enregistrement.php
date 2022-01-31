@@ -14,7 +14,7 @@
     $envoim->execute();
     $envoia->execute();
 
-    header('location: ../../index.php');
+    header('location: ../../landing.php');
 
 ?>
 
