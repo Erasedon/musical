@@ -19,12 +19,12 @@
           <?php
               } else {
           ?>
-              <li class="navbar__link second" id="services"><a href="#">Connexion</a></li>
+              <li class="navbar__link second" id="services"><a href="../../index.php">Connexion</a></li>
           <?php
              }
           ?>
-          <li class="navbar__link third"><a href="landing.php">Accueil</a></li>
-          <li class="navbar__link four"><a href="#">Playlist</a></li>
+          <li class="navbar__link third"><a href="index.php">Accueil</a></li>
+          <li class="navbar__link four"><a href="#playlist">Playlist</a></li>
         </ul>   
     <button class="burger">
       <span class="bar"></span>  

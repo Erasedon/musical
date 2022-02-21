@@ -38,5 +38,6 @@
 
             ?>
     <script src="assets/js/slider.js" async></script>
+    <script src="assets/js/script.js" ></script>
 </body>
 </html>
